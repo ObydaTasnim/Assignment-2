@@ -281,7 +281,7 @@ body {
 
 
         /* Latest Deals Section */
-        
+
         .latest-deals-section {
             padding: 80px 0;
              background: rgba(245, 248, 255, 1);
@@ -351,6 +351,71 @@ body {
             text-decoration: underline;
             font-weight: bold;
         }
+
+
+
+         /* Join Section */
+        .join-section {
+            background-image: url('assets/news-letter-bg.png');
+            background-size: cover; 
+            background-position: center;
+            height: 533px;
+    
+            
+            padding: 100px 0;
+            text-align: center;
+           
+        }
+
+        
+
+        .join-content h2 {
+            color: white;
+            font-size: 50px;
+            margin-top: 80px;
+
+           
+        }
+
+        .newsletter-form {
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            
+                width: 830px;
+            height: 50px;
+            margin: 0 auto;
+        
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 15px 20px;
+            border: none;
+       
+            font-size: 16px;
+          
+        }
+
+        .newsletter-form button {
+            background: rgba(233, 90, 8, 1);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            width: 186px;
+            height: 50px;
+    
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .newsletter-form button:hover {
+            background: #d35400;
+        }
+
+
 
 
 
